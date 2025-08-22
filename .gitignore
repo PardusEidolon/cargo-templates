@@ -1,4 +1,2 @@
-flake.*
-.envrc
 .direnv
 target
