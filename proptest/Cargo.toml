@@ -1,0 +1,15 @@
+[package]
+name = "{{ project-name }}"
+version = "0.1.0"
+edition = "2024"
+
+[profile.dev]
+opt-level = 2
+debug = false
+
+[profile.release]
+lto = true
+codegen-units = 1
+
+[dependencies]
+proptest = "1.7.0"
